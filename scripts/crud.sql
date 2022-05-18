@@ -25,5 +25,3 @@ where price = 100;
 --delete
 delete from coffee_house.ingredient
 where ingredient_nm = 'Carraro Espresso Classic';
-
--- update для склада на основе поставок и заказов + можно добавить время
