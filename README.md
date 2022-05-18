@@ -26,15 +26,15 @@
 
 ### Концептуальная модель
 
-![Концептуальная модель](./models/Conceptual model.png)
+![Концептуальная модель](./models/conceptual_model.png)
 
 ### Логическая модель
 
-![Логическая модель](./models/Logical model.png)
+![Логическая модель](./models/logical_model.png)
 
 ### Физическая модель
 
-![Физическая модель](./models/Physical model.pdf).
+[Физическая модель](./models/physical_model.pdf)
 
 
 ## Создание и заполнение БД, CRUD
