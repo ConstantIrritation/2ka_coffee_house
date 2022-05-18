@@ -40,7 +40,7 @@ create trigger  trigger_update_amt_after_order
 -- Раньше каждый раз при создании нового заказа его стоимость равнялась 0,
 -- далее добавлялась информация о составе заказа
 -- и после этого пересчитывалась стоимость заказа
--- Создадим функцию и соответствующтй триггер,
+-- Создадим функцию и соответствующий триггер,
 -- чтобы стоимость заказа высчитывалась автоматически
 
 create or replace function coffee_house.update_order_cost() returns trigger as
@@ -58,7 +58,7 @@ create or replace function coffee_house.update_order_cost() returns trigger as
     $$ language plpgsql;
 
 create trigger trigger_update_order_cost
-    after insertЮ
+    after insert
     on coffee_house.products_in_order
     for row
     execute procedure coffee_house.update_order_cost();
